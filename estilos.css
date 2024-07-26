@@ -1,0 +1,48 @@
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.icone {
+    font-size: 50px;
+}
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.lilas {
+    background-color: #9353FF;
+    border: 0;
+}
+
+.lilas:hover {
+    background-color: #723dcc;
+}
+
+.posicao{
+    top: 60%;
+}
+
+.botao-enviar:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+@media(min-width: 767px){
+    .posicao{
+        top:70%;
+    }
+
+    .div-novidades {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1200px){
+    .posicao{
+        top:60%;
+    }
+}
